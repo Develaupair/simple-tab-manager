@@ -1,8 +1,8 @@
 {
   "name": "Simple Tab Manager",
-  "description": "Lightweigt tool to import/export clipboard URLs to tabs or reversed",
+  "description": "Lightweigt tool to import/export URLs from opened tabs to the clipboard or open tabs from a list of URLs",
   "manifest_version": 2,
-  "version": "0.4",
+  "version": "0.5",
   "permissions": [
     "tabs",
     "clipboardRead",
