@@ -1,0 +1,14 @@
+html {
+    text-align: center;
+}
+
+table {
+    text-align: left;
+}
+
+.invisible {
+    /*visibility: hidden;*/
+    size: 0;
+    /*display: none;*/
+    /*opacity: 0;*/
+}

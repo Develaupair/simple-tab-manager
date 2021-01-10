@@ -1,0 +1,23 @@
+{
+  "name": "Simple Tab Manager",
+  "description": "Lightweigt tool to import/export clipboard URLs to tabs or reversed",
+  "manifest_version": 2,
+  "version": "0.4",
+  "permissions": [
+    "tabs",
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+  "icons": {
+    "128": "icons/128.png",
+    "256": "icons/256.png",
+    "512": "icons/512.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "512": "icons/512.png"
+    },
+    "default_title": "Simple Tab Manager",
+    "default_popup": "popup.html"
+  }
+}

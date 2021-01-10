@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Simple Tab Manager</title>
+    <link rel="stylesheet" href="popup.css"/>
+    <meta charset="utf-8">
+    <meta name="author" content="Anubisis">
+</head>
+
+<body>
+<div id="div_header"><h1>Simple Tab Manager</h1></div>
+<div id="div_content">
+    <div id="div_button">
+        <input id="button_copy" type="button" value="copy">
+        <input id="button_paste" type="button" value="paste">
+        <input disabled="disabled" id="button_export" type="button" value="export file">
+        <input disabled="disabled" id="button_import" type="button" value="import file">
+    </div>
+    <br>
+    <div id="div_data">
+        <table id="tabtable"></table>
+    </div>
+    <br>
+</div>
+</body>
+<script src="TabGetter.js"></script>
+</html>
