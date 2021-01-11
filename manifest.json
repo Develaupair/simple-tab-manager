@@ -6,7 +6,8 @@
   "permissions": [
     "tabs",
     "clipboardRead",
-    "clipboardWrite"
+    "clipboardWrite",
+    "downloads"
   ],
   "icons": {
     "128": "icons/128.png",
