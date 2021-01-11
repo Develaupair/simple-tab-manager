@@ -100,8 +100,10 @@ const tabGetter: any = {
         for (let i in this.tabs) {
             if (this.isRealisticUrl(this.tabs[i].toString)) {content+=this.tabs[i] + "\n";}
         }
-        const url: string = URL.createObjectURL(new Blob([content], {type: "text/plain;charset=utf-8"}));
-        browserInterface.downloads.download({url: url, filename: "simple.tabs"})
+        if (content != ""){
+            const url: string = URL.createObjectURL(new Blob([content], {type: "text/plain;charset=utf-8"}));
+            browserInterface.downloads.download({url: url, filename: "simple.tabs"})
+        }
     },
     async importFromFile() {
         alert("This feature is not supported yet!  :( ");
