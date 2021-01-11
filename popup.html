@@ -12,10 +12,15 @@
 <div id="div_header"><h1>Simple Tab Manager</h1></div>
 <div id="div_content">
     <div id="div_button">
+        
         <input id="button_copy" type="button" value="copy">
         <input id="button_paste" type="button" value="paste">
+        
         <input id="button_export" type="button" value="export file">
-        <input disabled="disabled" id="button_import" type="button" value="import file">
+        <input type="selector_file" style="display:none;" id="file" name="file"/><!--https://stackoverflow.com/a/36248168-->
+        <input type="button" id="button_import" value="import file" onclick="document.getElementById('selector_file').click();" /><!--https://stackoverflow.com/a/36248168-->
+        
+
         <br>
     </div>
     <br>

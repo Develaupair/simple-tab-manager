@@ -8,4 +8,5 @@ table {
 
 .invisible {
     size: 0;
+    display:none;
 }
